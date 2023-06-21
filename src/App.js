@@ -4,6 +4,7 @@ import About from "./components/About";
 import Services from "./components/Services";
 import Tours from "./components/Tours";
 import Footer from "./components/Footer";
+import OpenLink from "./components/OpenLink";
 
 function App() {
   return  (
@@ -14,6 +15,7 @@ function App() {
     <Services />
     <Tours />
     <Footer />
+    <OpenLink />
   </>
   );
 }
